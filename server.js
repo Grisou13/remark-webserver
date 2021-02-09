@@ -41,8 +41,7 @@ const homePage = function (req, res) {
   });
   console.log(directoryPath);
   res.render("index.html", { presentations });
-}
-
+};
 
 app.get("/", homePage);
 
@@ -51,7 +50,7 @@ app.get("/presentation/:presName", function (req, res) {
   res.render("presentation.html", { filename });
 });
 
-app.get('*', homePage);
-
-console.log("Listening on port: 3000");
-app.listen(3000);
+app.get("*", homePage);
+const port = process.env.PORT || 3000;
+console.log("Listening on port: " + port);
+app.listen(port);
