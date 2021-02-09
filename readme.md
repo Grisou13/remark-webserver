@@ -7,18 +7,22 @@ We recommend reading their documentation for more information on how to build yo
 
 This project provides usefull commands in your markdown presentations, that can't be handled by remark.
 
-
-
 To get started please visit the [getting-started](#getting-started) section
 
+# Pre-requisites
+
+- node.js @ 12
+- npm
 
 # Installation
 
-`npm install`
+```
+npm install
+```
 
 # Running the project
 
-`npm run start`
+Run in the terminal after install: `npm run start`
 
 And open your browser at `http://localhost:3000`
 
@@ -34,7 +38,7 @@ After creating your presentation based on `https://github.com/gnab/remark` templ
 
 *Disclaimer:* All custom instructions are processed server side and **do not** have any relationship with remarkjs.
 
-> Including another presentation
+## Including another presentation
 
  You can use the following command: `[include 'any filename.md']`
 
