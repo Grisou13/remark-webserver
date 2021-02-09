@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Presentation</title>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="/static/css/slides.css">
+</head>
+
+<body>
+    <textarea id="source">
+
+        <%- parseMarkDown(include("./slides/"+filename)) %>
+
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+        var slideshow = remark.create({
+            highlightLines: true
+        });
+    </script>
+</body>
+
+</html>

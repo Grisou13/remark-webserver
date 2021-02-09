@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+body {
+  font-family: "Droid Serif";
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Yanone Kaffeesatz";
+  font-weight: normal;
+}
+
+.remark-code,
+.remark-inline-code {
+  font-family: "Ubuntu Mono";
+  font-size: 1rem;
+}
+.remark-inline-code {
+  font-weight: bolder;
+
+}
+
+/* Two-column layouts */
+.left-column {
+  width: 49%;
+  float: left;
+}
+.right-column {
+  width: 49%;
+  float: right;
+}
+
+.left-column-33 {
+  width: 33%;
+  float: left;
+}
+.right-column-66 {
+  width: 66%;
+  float: right;
+}
+
+.left-column-66 {
+  width: 66%;
+  float: left;
+}
+.right-column-33 {
+  width: 33%;
+  float: right;
+}
+
+.right-column ~ p {
+  clear: both;
+}
+.right-column ~ ul {
+  clear: both;
+}
+
+.little > h1,
+.little > h2,
+.little > h3 {
+  margin: 0;
+}
+.little > h1:first-child,
+.little > h2:first-child,
+.little > h3:first-child,
+.little > a:first-child {
+  margin-top: 15px;
+}
+.little > h1 {
+  font-size: 30px;
+}
+.little > h2 {
+  font-size: 25px;
+}
+.little > h3 {
+  font-size: 20px;
+}
+.little > * {
+  font-size: 15px;
+}
+img {
+  max-width: 100%;    max-height: 250px;
+}
+.smaller{
+  font-size: 1.1rem;
+}
