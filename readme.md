@@ -2,7 +2,7 @@
 
 This project is intended for people wanting to make very simple presentations with Markdown.
 
-To get started please visit the [#getting-started] section
+To get started please visit the [getting-started](#getting-started) section
 
 
 # Installation
